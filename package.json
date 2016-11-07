@@ -1,77 +1,36 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "tellstickjs",
-        "scope": null,
-        "escapedName": "tellstickjs",
-        "name": "tellstickjs",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/Users/camilo/Projects"
-    ]
-  ],
-  "_from": "tellstickjs@latest",
-  "_id": "tellstickjs@0.2.1",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/tellstickjs",
-  "_npmUser": {
-    "name": "camilo.tapia",
-    "email": "camilo.tapia@gmail.com"
-  },
-  "_npmVersion": "1.4.3",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "tellstickjs",
-    "scope": null,
-    "escapedName": "tellstickjs",
+    "author": {
+        "name": "Camilo Tapia",
+        "email": "camilo.tapia@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/camme/tellstickjs/issues"
+    },
+    "contributors": [],
+    "dependencies": {},
+    "description": "Tellstick Event js bindings",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "80b86e7250d69863c89b8e8c58d1956ba71cdb66",
+        "tarball": "https://registry.npmjs.org/tellstickjs/-/tellstickjs-0.2.1.tgz"
+    },
+    "homepage": "https://github.com/camme/tellstickjs",
+    "main": "./tellstick.js",
+    "maintainers": [
+        {
+            "name": "camilo.tapia",
+            "email": "camilo.tapia@gmail.com"
+        }
+    ],
     "name": "tellstickjs",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/tellstickjs/-/tellstickjs-0.2.1.tgz",
-  "_shasum": "80b86e7250d69863c89b8e8c58d1956ba71cdb66",
-  "_shrinkwrap": null,
-  "_spec": "tellstickjs",
-  "_where": "/Users/camilo/Projects",
-  "author": {
-    "name": "Camilo Tapia",
-    "email": "camilo.tapia@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/camme/tellstickjs/issues"
-  },
-  "contributors": [],
-  "dependencies": {},
-  "description": "Tellstick Event js bindings",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "80b86e7250d69863c89b8e8c58d1956ba71cdb66",
-    "tarball": "https://registry.npmjs.org/tellstickjs/-/tellstickjs-0.2.1.tgz"
-  },
-  "homepage": "https://github.com/camme/tellstickjs",
-  "main": "./tellstick.js",
-  "maintainers": [
-    {
-      "name": "camilo.tapia",
-      "email": "camilo.tapia@gmail.com"
-    }
-  ],
-  "name": "tellstickjs",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/camme/tellstickjs.git"
-  },
-  "scripts": {},
-  "version": "0.2.1"
+    "optionalDependencies": {},
+    "readme": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/camme/tellstickjs.git"
+    },
+    "scripts": {},
+    "version": "0.2.2"
+
 }
