@@ -55,7 +55,7 @@ function TelldusEvents() {
         var events = [];
         var data = buffer.toString();
 
-        var re = /((\d+\:TDRawDeviceEvent.+?)i1s)/g;
+        var re = /((\d+\:TDRawDeviceEvent.+?)i1(|-)s)/g;
 
         var eventData = re.exec(data);
 
