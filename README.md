@@ -11,17 +11,21 @@ The events sent from tellduscore have changed very little, but there is one smal
 To use this, you need to have TelldusCore installed. I have only tested this on Ubuntu and Raspbian. 
 (More on TelldusCore for the Raspberry here](http://elinux.org/R-Pi_Tellstick_core)
 
+## Install
+
+    npm install tellstickjs
+
 ## How to use
 
-const tellstick = require('tellstickjs').init();
+    const tellstick = require('tellstickjs').init();
 
-tellstick.on('turnon', event => {
-    console.log(event);
-});
-
-tellstick.on('turnoff', event => {
-    console.log(event);
-});
+    tellstick.on('turnon', event => {
+        console.log(event);
+    });
+    
+    tellstick.on('turnoff', event => {
+        console.log(event);
+    });
 
 ## Docker
 
